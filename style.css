@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: linear-gradient(to right, #2c96a8, #4138b3);;
+    height: 2000px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+    background-color: gray;
+    width: 100%;
+    top: 1rem;
+}
+
+nav a {
+    color: #361a79;
+    font-family: Nunito, Jetbrans Mono;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+.hero table tr th td{
+    font-family: JetBrains Mono ;
+    font-size: 3rem;
+}
+
